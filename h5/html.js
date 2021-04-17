@@ -20,12 +20,6 @@ const content = script =>
     .m-signature-pad {
       position: absolute;
       font-size: 10px;
-      width: 700px;
-      height: 400px;
-      top: 50%;
-      left: 50%;
-      margin-left: -350px;
-      margin-top: -200px;
       background-color: #fff;
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;
     }
@@ -74,13 +68,13 @@ const content = script =>
     .m-signature-pad--footer
       .button {
         position: absolute;
-        bottom: 20px;
-        height: 40px;
+        top: 0px;
+        height: 75px;
         padding: 0 45px;
         text-align: center;
         color: #FFF;
         border: 1px solid transparent;
-        border-radius: 4px;
+        border-radius: 20px;
         outline: none;
         box-shadow: -4.41667px -4.41667px 13.25px #FFFFFF, 6.625px 6.625px 13.25px rgba(174, 174, 192, 0.4);;
         font-size: 1.6em;
